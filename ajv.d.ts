@@ -1,7 +1,6 @@
-// Type definitions for ajv v3.4.0
+// Type definitions for ajv v3.5.0
 // Project: https://github.com/epoberezkin/ajv
-// Definitions by: Rich Adams <https://github.com/enriched>
-// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
+// Original Definitions by: Rich Adams <https://github.com/enriched>
 
 declare module ajv {
     interface AjvStatic {
