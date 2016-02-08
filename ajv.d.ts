@@ -2,7 +2,7 @@
 // Project: https://github.com/epoberezkin/ajv
 // Original Definitions by: Rich Adams <https://github.com/enriched>
 
-declare module ajv {
+declare namespace ajv {
     interface AjvStatic {
         (options?: AjvOptions): AjvInstance;
     }
@@ -145,4 +145,5 @@ declare module ajv {
     }
 }
 
+declare var ajv: ajv.AjvStatic;
 export = ajv;
