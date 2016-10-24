@@ -4,7 +4,7 @@
 
 declare namespace ajv {
     interface AjvStatic {
-        (options?: AjvOptions): AjvInstance;
+        new (options?: AjvOptions): AjvInstance;
     }
 
     interface AjvInstance {
